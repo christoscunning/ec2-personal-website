@@ -1,0 +1,30 @@
+{
+  "name": "ec2-personal-website",
+  "version": "1.0.0",
+  "description": "This git repo is the source code for the second version of my website about me, this time with Javascript! Yay!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christoscunning/ec2-personal-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christoscunning/ec2-personal-website/issues"
+  },
+  "homepage": "https://github.com/christoscunning/ec2-personal-website#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "bootstrap": "^4.3.1",
+    "next": "^8.0.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}

@@ -1,0 +1,60 @@
+/* css/footer.css */
+
+#footer {
+	dispaly: inline;
+	border-top: 1px solid #DDD;
+	padding: 10px;
+	
+	
+	position: relative;
+	display: block;
+	height: 100px;
+	
+	
+	background: url(/static/curcuits-background.jpg);
+	background-repeat: repeat;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	
+}
+
+#footer::after {
+	content: "";
+	background: url(/static/curcuits-background.jpg);
+	background-repeat: repeat;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+
+.footertext {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	left: 50%;
+	transform: translate(-50%,0);
+	width: 100%;
+	text-align: center;
+}
+
+.footerCircleLink {
+	/*should make it a perfect circle*/
+	border-radius: 50%;
+	width: 2em;
+	height: 2em;
+	margin: 0;
+	position: absolute;
+	top: 40%;
+	transform: translate(0, -50%);
+	left: 50%;
+	transform: translate(-50%,0);
+}
