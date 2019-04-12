@@ -19,20 +19,23 @@ const Footer = () => (
 					<div className="col-sm-2"></div>
 					<div className="col-sm-2">
 						<Link href="http://www.github.com/christoscunning">
-							<img src='/static/github-favicon.jpg' className="footerCircleLink"/>
-							
+							<a>
+								<img src='/static/github-favicon.jpg' className="footerCircleLink"/>
+							</a>
 						</Link>
 					</div>
 					<div className="col-sm-2">
 						<Link href="http://www.linkedin.com/in/christoscunning">
-							<img src='/static/linkedin-favicon.png' className="footerCircleLink"/>
-							
+							<a>
+								<img src='/static/linkedin-favicon.png' className="footerCircleLink"/>
+							</a>
 						</Link>
 					</div>
 					<div className="col-sm-2">
 						<Link href="https://twitter.com/christoscunn">
-							<img src='/static/twitter-favicon.png' className="footerCircleLink"/>
-							
+							<a>
+								<img src='/static/twitter-favicon.png' className="footerCircleLink"/>
+							</a>
 						</Link>
 					</div>
 					<div className="col-sm-2">
