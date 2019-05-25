@@ -17,7 +17,9 @@ const withLayout = Page => {
 					<Footer />
 				</div>
 			</div>
+			
 		</div>
+		
 	)
 }
 

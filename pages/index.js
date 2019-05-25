@@ -11,36 +11,75 @@ import withLayout from '../components/BaseLayout.js'
 
 const Page = () => 
 	<div>
-		<h3>Christos Cunning IT Committee Application</h3>
 		
-		<h4>Contact Info</h4>
-		<p>Name: Christos Cunning</p>
-		<p>Email: <a href="mailto:christos.cunning@mail.mcgill.ca">christos.cunning@mail.mcgill.ca/</a></p>
+		<div className="container">
+		<div className="row">
+			<div className="col-sm-0"></div>
+			<div className="col-sm-12">
+					<div className="row" id="content">
+						<div className="col-sm-6">
+							<img src="/static/me-oldfbpp.jpg" id="portrait"></img>
+						</div>
+						<div className="col-sm-6">
+						
+							<div id="intro-div">
+								<p id="intro-text">Hi, I'm Christos Cunning, a student currently studying Computer Engineering at McGill University and a passionate software developer in my spare time. Currently seeking a Summer 2019 internship. I also enjoy playing hockey, ultimate and <a id="no-link" href="https://store.steampowered.com/app/212680/FTL_Faster_Than_Light/">video games</a> in my spare time.</p>
+								
+								<p id="contact-title">Contact Me:</p>
+								<a href="mailto:christos.cunning@mail.mcgill.ca">christos.cunning@mail.mcgill.ca</a>
+							</div>
+								
+						</div>
+					</div>	
+			</div>
+			<div className="col-sm-0"></div>
+		</div>
+		</div>
 		
-		<h4>Positions of Interest</h4>
-		<p>I am intersted in the positions of Webmaster, TeN Manager and Server Manager as I feel that these
-		are the positions that I have experience and interest in.</p>
+		<style jsx>{`
+		.container {
+			width: 100%;
+		}
 		
-		<h4>
-			What technical experience do you have that will help you succeed in the role(s) you selected?
-		</h4>
-		<p>
-			I am a second-year computer engineering student with an interest in web development. I have experience creating and hosting websites, using HTML, CSS, and JavaScript that I have hosted using AWS. I believe this technical experience will allow me to quickly learn how the EUS system operates and how I can implement ideas to improve it. I also have experience with handling computer hardware and assembling computer components. I also created this website using Node.js and React.js!
-		</p>
+		body {
+			min-height: 50em;
+		}
 		
-		<h4>
-			What other experience or skills do you have that will help you succeed in the role(s) you selected?
-		</h4>
-		<p>
-			Aside from technical experience, I have served as a member of the EUS Board of Governors as a Member at Large, as well as ECSESS U1 Computer Rep. Positions such as these allow me to work with others to create something greater together, something that I am excited to do with the IT Committee. A big part of the above positions is collaboration with others, something that will translate easily to any role on the IT Committee.
-		</p>
+		#portrait {
+			height: 15em;
+			width: 15em;
+			margin: 1em;
+			border: 8px;
+			border-style: double;
+			border-radius: 50%;
+		}
 		
-		<h4>
-			Do you have any other comments or remarks?
-		</h4>
-		<p>
-			I am interested in joining the IT committee because I think that the mcgilleus.ca website is underutilized as a resource to the EUS, and I believe that I have valuable ideas that would help change that. For one, although the wiki holds a great wealth of, having information displayed in a more accessible way on our website could help those not has familiar with the internal workings of the EUS. Something like a quick FAQ page, (ex: What is a committee? What is council?) or a page for the Board to display completed and in progress mandates could be informative and provide insight to students of what the EUS actually does. Although the EUS also uses listservs and Facebook as forms of communication, these often can get lost in the mass amount of emails and Facebook events people get invited to. Turning the McGill EUS website into a sort of hub of information would allow students to reach out and learn more about specific parts of the society they are involved with instead of getting a list of things each week that they might be interested in. I believe that it is crucial that we expand upon it to more effectively reach members of the EUS.
-		</p>
+		#intro-text {
+			font-weight: bold;
+			witdth: 100%;
+			text-align: left;
+			font-size: 1em;
+			
+			
+		}
+		
+		#intro-div {
+			transform: translate(0, 25%);
+		}
+		
+		#wide-content {
+			width: 75%;
+		}
+		
+		#no-link {
+			color:inherit;
+			text-decoration:none;
+		}
+		
+		p {
+			cursor:text;
+		}
+		`}</style>
 		
 	</div>
 
